@@ -1,1 +1,1 @@
-# digital-theater
+# Digital Theater
