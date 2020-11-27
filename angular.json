@@ -120,8 +120,13 @@
               "devServerTarget": "digital-theater:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "digital-theater"
 }
