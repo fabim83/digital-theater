@@ -1,0 +1,8 @@
+<div>
+    <label for="betrag">Spende:</label>
+    <br />
+    <input [ngModel]="betrag | currency:'EUR':true" (ngModelChange)="betrag=$event" name="betrag" type="text"
+        placeholder="Betrag" />
+</div>
+<br />
+<ngx-paypal [config]="payPalConfig"></ngx-paypal>

@@ -12,11 +12,14 @@ import { VgBufferingModule } from '@videogular/ngx-videogular/buffering';
 import { VgStreamingModule } from '@videogular/ngx-videogular/streaming';
 
 import { StreamComponent } from './stream/stream.component';
+import { NgxPayPalModule } from 'ngx-paypal';
+import { PaypalComponent } from './paypal/paypal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StreamComponent
+    StreamComponent,
+    PaypalComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { StreamComponent } from './stream/stream.component';
     VgControlsModule,
     VgOverlayPlayModule,
     VgBufferingModule,
-    VgStreamingModule
+    VgStreamingModule,
+    NgxPayPalModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
