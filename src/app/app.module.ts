@@ -14,12 +14,14 @@ import { VgStreamingModule } from '@videogular/ngx-videogular/streaming';
 import { StreamComponent } from './stream/stream.component';
 import { NgxPayPalModule } from 'ngx-paypal';
 import { PaypalComponent } from './paypal/paypal.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StreamComponent,
-    PaypalComponent
+    PaypalComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

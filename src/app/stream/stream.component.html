@@ -1,13 +1,14 @@
-<div class="paypal">
-    <app-paypal></app-paypal>
-</div>
-<div class="player">
-    <vg-player>
-        <video #media [vgMedia]="media" id="singleVideo" preload="auto" controls>
-            <source src="../../assets/Testvideo.mp4" type="video/mp4">
-        </video>
-    </vg-player>
-    <!-- <vg-player (onPlayerReady)="onPlayerReady($event)">
+<div class="bg">
+    <div class="paypal">
+        <app-paypal></app-paypal>
+    </div>
+    <div class="player">
+        <vg-player>
+            <video #media [vgMedia]="media" id="singleVideo" preload="auto" controls>
+                <source src="../../assets/Testvideo.mp4" type="video/mp4">
+            </video>
+        </vg-player>
+        <!-- <vg-player (onPlayerReady)="onPlayerReady($event)">
         <vg-overlay-play></vg-overlay-play>
         <vg-buffering></vg-buffering>
 
@@ -35,6 +36,7 @@
             [vgDRMLicenseServer]="currentStream.licenseServers" id="singleVideo" crossorigin>
         </video>
     </vg-player> -->
+    </div>
 </div>
 
 <!-- <label>
