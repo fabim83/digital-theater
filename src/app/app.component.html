@@ -1,5 +1,30 @@
-<nav>
-    <a routerLink="/home">Home</a>
-    <a routerLink="/buehne">Bühne</a>
-</nav>
+<mat-toolbar color="black">
+    <a mat-button="" routerlink="/" aria-label="Digital Theater"
+        class="mat-focus-indicator docs-button mat-button mat-button-base" tabindex="0" aria-disabled="false" href="/">
+        <span class="mat-button-wrapper">
+            <img src="../assets/theater(1).png" alt="theater">
+            <span>Digital Theater</span>
+        </span>
+        <span matripple="" class="mat-ripple mat-button-ripple"></span>
+        <span class="mat-button-focus-overlay"></span>
+    </a>
+    <a mat-button="" routerlink="/" aria-label="Home" class="mat-focus-indicator docs-button mat-button mat-button-base"
+        tabindex="0" aria-disabled="false" href="/">
+        <span class="mat-button-wrapper">
+            <span>Home</span>
+        </span>
+        <span matripple="" class="mat-ripple mat-button-ripple"></span>
+        <span class="mat-button-focus-overlay"></span>
+    </a>
+    <a mat-button="" routerlink="/buehne" aria-label="Bühne"
+        class="mat-focus-indicator docs-button mat-button mat-button-base" tabindex="0" aria-disabled="false"
+        href="/buehne">
+        <span class="mat-button-wrapper">
+            <span>Bühne</span>
+        </span>
+        <span matripple="" class="mat-ripple mat-button-ripple"></span>
+        <span class="mat-button-focus-overlay"></span>
+    </a>
+    <span class="spacer"></span>
+</mat-toolbar>
 <router-outlet></router-outlet>

@@ -15,6 +15,11 @@ import { StreamComponent } from './stream/stream.component';
 import { NgxPayPalModule } from 'ngx-paypal';
 import { PaypalComponent } from './paypal/paypal.component';
 import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatRippleModule } from '@angular/material/core';
+
 
 @NgModule({
   declarations: [
@@ -33,6 +38,10 @@ import { HomeComponent } from './home/home.component';
     VgBufferingModule,
     VgStreamingModule,
     NgxPayPalModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatRippleModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
