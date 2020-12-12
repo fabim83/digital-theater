@@ -5,3 +5,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.player {
+    left: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paypal {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
