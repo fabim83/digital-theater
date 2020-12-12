@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StreamComponent } from './stream.component';
+import { BuehneComponent } from './buehne.component';
 
-describe('StreamComponent', () => {
-  let component: StreamComponent;
-  let fixture: ComponentFixture<StreamComponent>;
+describe('BuehneComponent', () => {
+  let component: BuehneComponent;
+  let fixture: ComponentFixture<BuehneComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StreamComponent ]
+      declarations: [ BuehneComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StreamComponent);
+    fixture = TestBed.createComponent(BuehneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

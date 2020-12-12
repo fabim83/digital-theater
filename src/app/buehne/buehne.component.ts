@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Subscription, timer } from 'rxjs';
 import { BitrateOptions, IDRMLicenseServer, VgApiService } from '@videogular/ngx-videogular/core';
 import { VgDashDirective, VgHlsDirective } from '@videogular/ngx-videogular/streaming';
@@ -12,11 +12,12 @@ export interface IMediaStream {
 }
 
 @Component({
-  selector: 'app-stream',
-  templateUrl: './stream.component.html',
-  styleUrls: ['./stream.component.scss']
+  selector: 'app-buehne',
+  templateUrl: './buehne.component.html',
+  styleUrls: ['./buehne.component.css']
 })
-export class StreamComponent implements OnInit {
+export class BuehneComponent implements OnInit {
+
   @ViewChild(VgDashDirective) vgDash: VgDashDirective;
   @ViewChild(VgHlsDirective) vgHls: VgHlsDirective;
 
@@ -92,4 +93,5 @@ export class StreamComponent implements OnInit {
       }
     );
   }
+
 }

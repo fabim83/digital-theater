@@ -11,7 +11,6 @@ import { VgOverlayPlayModule } from '@videogular/ngx-videogular/overlay-play';
 import { VgBufferingModule } from '@videogular/ngx-videogular/buffering';
 import { VgStreamingModule } from '@videogular/ngx-videogular/streaming';
 
-import { StreamComponent } from './stream/stream.component';
 import { NgxPayPalModule } from 'ngx-paypal';
 import { PaypalComponent } from './paypal/paypal.component';
 import { HomeComponent } from './home/home.component';
@@ -21,16 +20,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { DatenschutzComponent } from './datenschutz/datenschutz.component';
+import { BuehneComponent } from './buehne/buehne.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    StreamComponent,
     PaypalComponent,
     HomeComponent,
     ImpressumComponent,
-    DatenschutzComponent
+    DatenschutzComponent,
+    BuehneComponent
   ],
   imports: [
     BrowserModule,
