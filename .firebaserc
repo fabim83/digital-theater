@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "digital-theater"
+  },
+  "targets": {
+    "digital-theater": {
+      "hosting": {
+        "digital-theater": [
+          "digital-theater"
+        ]
+      }
+    }
+  }
+}
